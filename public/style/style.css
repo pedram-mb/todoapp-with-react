@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: rgb(20,53,66);
+    background: linear-gradient(313deg, rgba(20,53,66,1) 0%, rgba(7,5,50,1) 100%); 
+}
+.content{
+    direction: rtl;
+}
+/* header */
+.header-text{
+    color: snow;
+    font-weight: bold;
+}
+.text-input{
+    background-color: rgba(16, 5, 55, 0.887);
+    color: snow;
+    border: 1px solid rgb(13, 6, 38);
+    border-radius: 5px;
+}
+.btn-input{
+    background-color: rgb(16, 5, 55);
+    color: snow;
+    border: 1px solid rgb(13, 6, 38);
+    z-index: 100;
+    border-radius: 5px;
+}
+/* filter */
+.FilterArr{
+    margin: 0 auto;  
+    border-radius: 5px;
+}
+button{
+    background-color: unset;
+    border: none;
+    color: darkgray;
+    transition: transform .2s;
+}
+button:hover{ 
+    transform: scale(1.5); 
+}
+.on{
+    color: darkorange;
+}
+/* li */
+.list{
+    z-index: 100;
+    box-shadow: 1px 3px 10px rgb(43, 43, 43);
+    border-radius: 8px;
+}
+.list p{
+    color: snow;
+    font-weight: bold;
+    
+}
+.list-group-item-success{
+    background-color: rgba(135, 255, 193, 0.339);
+}
+.box-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: snow;
+}
