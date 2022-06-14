@@ -44,7 +44,7 @@ button:hover{
     transform: scale(1.5); 
 }
 .on{
-    color: darkorange;
+    color: rgb(118, 216, 255);
 }
 /* li */
 .list{
